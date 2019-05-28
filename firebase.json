@@ -17,6 +17,10 @@
     ],
     "rewrites": [
       {
+        "source": "/api/topics",
+        "function": "topics"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
