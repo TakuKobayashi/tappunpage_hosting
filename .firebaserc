@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "taptappun-16e41"
+    "default": "taptappun-16e41",
+    "rewrites": [{
+      "source": "/topics", "function": "topics"
+    }]
   }
 }
